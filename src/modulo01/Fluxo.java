@@ -27,9 +27,10 @@ public class Fluxo {
             System.out.println(i);
             if (i == 3) {
                 ApenasParaForcarErro dummy = null;
-                dummy.metodoDummy();
+                //dummy.metodoDummy();
             }
         }
-        System.out.println("Fim do metodo2");        
+        System.out.println("Fim do metodo2");
+        throw new ArithmeticException("LANÇANDO EXCEÇÃO.");
     }
 }
