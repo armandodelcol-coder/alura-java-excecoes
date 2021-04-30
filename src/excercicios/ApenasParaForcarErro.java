@@ -1,4 +1,4 @@
-package modulo01;
+package excercicios;
 
 public class ApenasParaForcarErro {
 
